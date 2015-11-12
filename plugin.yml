@@ -1,0 +1,6 @@
+name: AllPlayers
+version: 0.0.1
+api: [1.0.0]
+author: itmedevcraft_
+description: Brings back the old @a functionaility to PocketMine servers!
+main: AllPlayers\AllPlayers
