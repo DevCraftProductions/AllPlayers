@@ -1,6 +1,6 @@
 <?php
 
-namespace AllPlayers
+namespace AllPlayers;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerChatEvent;
