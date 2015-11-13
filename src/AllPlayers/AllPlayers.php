@@ -15,9 +15,9 @@ class AllPlayers extends PluginBase implements Listener {
   
   public function onPlayerChat(PlayerChatEvent $event) {
     
-    $player = $event->getPlayer();
-    $event = str_replace("%p", $player->getName());
-    $event = str_replace("@a", $player->getName());
+    $player = $allplayers->getPlayer();
+    $allplayers = str_replace("%p", $player->getName());
+    $allplayers = str_replace("@a", $player->getName());
   }
 }
 
